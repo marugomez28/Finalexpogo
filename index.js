@@ -2,7 +2,7 @@ import express from "express";
 import cors from "cors";
 import dotenv from "dotenv";
 import mongoose from "mongoose";
-import usuarioRoutes from "./routes/usuarios.js";
+import usuarioRoutes from "./src/routes/usuario.routes.js";
 
 dotenv.config();
 
